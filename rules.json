@@ -1,0 +1,50 @@
+[
+    {
+        "ip": "192.168.1.1",
+        "port": 80,
+        "protocol": "TCP",
+        "action": "ALLOW"
+    },
+    {
+        "ip": "10.0.0.5",
+        "port": 22,
+        "protocol": "TCP",
+        "action": "DENY"
+    },
+    {
+        "ip": "172.16.0.10",
+        "port": 443,
+        "protocol": "TCP",
+        "action": "ALLOW"
+    },
+    {
+        "ip": "192.168.1.50",
+        "port": 21,
+        "protocol": "TCP",
+        "action": "DENY"
+    },
+    {
+        "ip": "203.0.113.25",
+        "port": 53,
+        "protocol": "UDP",
+        "action": "ALLOW"
+    },
+    {
+        "ip": "198.51.100.8",
+        "port": 8080,
+        "protocol": "TCP",
+        "action": "DENY"
+    },
+    {
+        "ip": "10.0.0.100",
+        "port": 25,
+        "protocol": "TCP",
+        "action": "DENY"
+    },
+    {
+        "ip": "192.168.2.200",
+        "port": 110,
+        "protocol": "TCP",
+        "action": "ALLOW"
+    }
+]
